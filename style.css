@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .sidebar {
+     background-color: #3d3d3d;
+     color: white;
+     width: 10vw;
+     padding: 30px;
+     font-family: 'Roboto Condensed', sans-serif;
+     height: 100vh;
+ }
+
+ .sidebar nav{
+     padding: 25px;
+    
+ }
+ .sidebar nav li a{
+     text-decoration: none;
+     color: #ffffff;
+    
+ } 
+ .sidebar li {
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0px;
+     
+}
+
+ .main {
+     background-color: rgb(196, 194, 194);
+     width: 90vw;
+
+ }
+
+ .contain {
+     display: flex;
+     font-family: 'Roboto Condensed', sans-serif;
+ }
+
+ .containtwo {
+     background-color: #ffffff;
+     margin: 110px auto;
+     height: 70vh;
+     width: 80vw;
+     display: flex;
+     justify-content: right;
+     border-radius: 10px;
+ }
+
+ .info {
+     
+     display: flex;
+     flex-direction: column;
+     margin-left: 85px;
+     margin-top: 85px;
+
+ }
+
+ .devpic img {
+    display: flex;
+     margin-top: -143px;
+     height: 90vh;
+
+ }
+
+
+ .hi {
+
+     font-size: 80px;
+     padding-bottom: 10px;
+ }
+
+ .name {
+
+     font-size: 50px;
+     font-weight: bold;
+     padding-bottom: 10px;
+ }
+
+ .about {
+
+     font-size: 40px;
+      
+ }
+
+ .button button {
+    padding: 6px;
+    margin-top: 16px;
+    margin-right: 13px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(2, 172, 219);
+    font-weight: bold; 
+    color: #ffffff;
+    cursor: pointer;
+    
+ }
+ .button button:hover{
+    background-color: #ffffff;
+    
+    color: rgb(2, 172, 219);
+ }
+
+ 
