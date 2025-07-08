@@ -13,13 +13,13 @@ Contact
 
 ========== HOME ==========
 .home-title
-Zethan West
+Akash Maity
 
 .home-job
 I am a Web Developer
 
 .home-description
-A passionate web developer based in the state of California. With a keen eye for detail and a passion for web design, I specialize in creating visually captivating and highly functional websites.
+A passionate web developer based in Kolkata, India. With a keen eye for detail and a strong passion for web design, I specialize in crafting visually engaging and highly functional websites that deliver seamless user experiences.
 
 .button
 My Works
