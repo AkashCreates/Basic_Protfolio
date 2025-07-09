@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Design Tokens Preview</title>
+
+  <style>
+    :root {
+      /*========== Colors ==========*/
+      --first-hue: 260;
+      --second-hue: 216;
+      --first-color: hsl(var(--first-hue), 91%, 64%);
+      --first-color-dark: hsl(var(--first-hue), 62%, 20%);
+      --title-color: hsl(var(--second-hue), 8%, 85%);
+      --text-color: hsl(var(--second-hue), 8%, 75%);
+      --body-color: hsl(var(--second-hue), 28%, 12%);
+      --container-color: hsl(var(--second-hue), 28%, 15%);
+      --white-color: hsl(var(--second-hue), 8%, 100%);
+
+      --first-gradient: linear-gradient(150deg,
+          var(--first-color) 0%,
+          var(--white-color) 100%);
+      --second-gradient: linear-gradient(260deg,
+          var(--first-color-dark) 0%,
+          var(--first-color) 100%);
+
+      /*========== Font sizes ==========*/
+      --big-font-size: 8rem;
+      --h1-font-size: 3.75rem;
+      --h2-font-size: 3rem;
+      --h3-font-size: 1.5rem;
+      --larger-font-size: 1.25rem;
+      --large-font-size: 1.125rem;
+      --normal-font-size: 1rem;
+      --small-font-size: 0.875rem;
+
+      /*========== Font weight ==========*/
+      --font-medium: 500;
+      --font-semi-bold: 600;
+      --font-bold: 700;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: system-ui, sans-serif;
+      background-color: black;
+      color: var(--white-color);
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: var(--title-color);
+    }
+
+    .color-box {
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .gradient-box {
+      height: 100px;
+      margin: 1rem 0;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .gradient-title {
+      font-size: var(--h1-font-size);
+      background: var(--first-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <h1 class="gradient-title">🎨 Design Tokens Preview</h1>
+
+    <!-- COLORS -->
+    <section class="colors">
+      <h2>Color Variables</h2>
+      <div class="color-box" style="background: var(--first-color);">--first-color</div>
+      <div class="color-box" style="background: var(--first-color-dark);">--first-color-dark</div>
+      <div class="color-box" style="background: var(--title-color);">--title-color</div>
+      <div class="color-box" style="background: var(--text-color);">--text-color</div>
+      <div class="color-box" style="background: var(--body-color);">--body-color</div>
+      <div class="color-box" style="background: var(--container-color);">--container-color</div>
+      <div class="color-box" style="background: var(--white-color); color: black;">--white-color</div>
+    </section>
+
+    <!-- FONT SIZES -->
+    <section class="fonts">
+      <h2>Font Size Variables</h2>
+      <p style="font-size: var(--big-font-size);">--big-font-size</p>
+      <p style="font-size: var(--h1-font-size);">--h1-font-size</p>
+      <p style="font-size: var(--h2-font-size);">--h2-font-size</p>
+      <p style="font-size: var(--h3-font-size);">--h3-font-size</p>
+      <p style="font-size: var(--larger-font-size);">--larger-font-size</p>
+      <p style="font-size: var(--large-font-size);">--large-font-size</p>
+      <p style="font-size: var(--normal-font-size);">--normal-font-size</p>
+      <p style="font-size: var(--small-font-size);">--small-font-size</p>
+    </section>
+
+    <!-- GRADIENTS -->
+    <section class="gradients">
+      <h2>Gradient Variables</h2>
+      <div class="gradient-box" style="background: var(--first-gradient);">--first-gradient</div>
+      <div class="gradient-box" style="background: var(--second-gradient);">--second-gradient</div>
+    </section>
+
+    <!-- FONT WEIGHTS -->
+    <section class="weights">
+      <h2>Font Weight Variables</h2>
+      <p style="font-weight: var(--font-medium);">--font-medium</p>
+      <p style="font-weight: var(--font-semi-bold);">--font-semi-bold</p>
+      <p style="font-weight: var(--font-bold);">--font-bold</p>
+    </section>
+  </main>
+</body>
+</html>

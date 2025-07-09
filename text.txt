@@ -38,8 +38,7 @@ https://github.com/
 Years Expercience
 
 .about-description
-Over ten years of designing, I transform concepts projects using creativity and interactive design worldwide.
-
+With over 2.5 years of experience in design and development, I transform ideas into engaging, interactive projects that blend creativity with clean, functional code
 .button
 Download CV
 

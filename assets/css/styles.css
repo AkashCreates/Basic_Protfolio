@@ -117,12 +117,11 @@ img {
 
 .button {
   display: inline-flex;
-  background: var(--second-gradient);
+  background-image: var(--second-gradient);
   color: var(--white-color);
   padding: 1.5rem 2rem;
   border-radius: 0.5rem;
   font-weight: var(--font-semi-bold);
-  transition: 0.3s;
 }
 
 .button:hover {
@@ -130,6 +129,7 @@ img {
       var(--first-color) 0%,
       var(--first-color-dark) 100%);
 }
+ 
    
 
 /*=============== LAYOUT ===============*/
@@ -258,7 +258,51 @@ img {
 }
 
 /*=============== ABOUT ===============*/
+.about-container{
+  grid-template-columns: 3fr 6fr 2fr;
+  align-items: center;
+  column-gap: 4rem;
+}
 
+.about-exprience{
+  width: 280px;
+  height: 420px;
+  background-image: var(--second-gradient);
+  border-radius: 1rem;
+  display: grid;
+  place-content: center;
+}
+
+.exprience-no{
+  font-size: var(--big-font-size);
+  font-weight: var(--font-bold);
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+.exprience-title{
+  font-size: var(--large-font-size);
+  text-align: center;
+}
+.about-description{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.text-gradient{
+  /* -webkit-text-fill-color: hsl(var(--second-hue), 8%, 85%, 0.2); */
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.2);
+   background-image: var(--first-gradient);
+   background-clip: text;
+   background-size: 0% 100%;
+   background-repeat: no-repeat;
+}
+
+.about-data{
+  row-gap: 2rem;
+}
+.about-no{
+  font-size: var(--h2-font-size);
+  margin-bottom: 0.125rem;
+}
 /*=============== SERVICES ===============*/
 
 /*=============== SKILLS ===============*/
