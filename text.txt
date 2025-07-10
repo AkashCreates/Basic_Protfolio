@@ -59,16 +59,16 @@ My Services
 
 .services-no | .services-title | .services-description
 01
-Responsive Design
-Ensure your website looks great on any device, with layouts that adapt to different screen sizes seamlessly.
+Responsive Web Design
+Design interfaces that fluidly adapt to all screen sizes—offering a consistent, optimized experience on desktops, tablets, and smartphones.
 
 02
-CMS Development
-Set up user-friendly CMS solutions like WordPress or custom-built options so clients can manage content easily.
+Custom CMS Solutions
+Implement intuitive content management systems—whether WordPress or tailor-made—so clients can effortlessly update and control their site content.
 
 03
-API Integrations
-Build and integrate APIs to connect websites with third-party applications, enhancing functionality.
+API Integration Services
+Seamlessly connect your website with external platforms and services through robust API integrations to boost functionality and automation.
 
 
 ========== SKILLS ==========
@@ -116,25 +116,25 @@ Basic
 My Journey
 
 .resume-title | .resume-duration | .resume-title | .resume-description
-Apple
-Jan 2023 - May 2024
-UX / UI Designer
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+W3 WebSchool
+May 2024 - Present
+Student & Web Developer
+Enrolled in advanced web development training, focusing on front-end and back-end technologies. Gaining hands-on experience through real-world projects while strengthening skills in HTML, CSS, JavaScript, and modern frameworks.
 
-Facebook
-June 2020 - Jan 2023
-UX / UI Designer
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex
+June 2022 - June 2026
+Computer Science Major
+Pursuing a Bachelor’s degree in Computer Science, focusing on programming, software development, and emerging technologies. Actively engaging in projects, coding practices, and building a solid foundation in both theoretical and practical aspects of computing.
 
-University
-March 2018 - March 2019
-Multimedia & Creative Technology
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Sinthee Ramkrishna Sangha Vidyamandir(Higher Secondary)
+March 2018 - March 2020
+PCM Student
+Completed higher secondary education with Physics, Chemistry, and Mathematics (PCM) as core subjects. Achieved 79% in the final board examinations, demonstrating strong academic performance and analytical skills.
 
-University
-April 2014 - Dec 2017
-Multimedia & Creative Technology
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Sinthee Ramkrishna Sangha Vidyamandir(Secondary)
+January 2012 - March 2018
+Student
+Completed my secondary education with a strong academic foundation. Maintained consistent performance throughout and scored 80% in the final board examinations. Demonstrated consistent performance throughout the course.
 
 
 ========== PORTFOLIO ==========
