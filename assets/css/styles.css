@@ -7,8 +7,29 @@
 
 :root {
   /*========== Colors ==========*/
-  --first-hue: 260;
-  --second-hue: 216;
+  /* --first-hue: 260;
+  --second-hue: 216; */
+
+  /* --first-hue: 140;
+  --second-hue: 210; */
+
+  /* --first-hue: 25;
+  --second-hue: 220; */
+
+  /* --first-hue: 180;
+  --second-hue: 45; */
+
+  /* --first-hue: 10;
+  --second-hue: 240; */
+
+  --first-hue: 290;
+  --second-hue: 45; 
+
+/* --first-hue: 340;   
+--second-hue: 35;   */
+ 
+ 
+
   --first-color: hsl(var(--first-hue), 91%, 64%);
   --first-color-dark: hsl(var(--first-hue), 62%, 20%);
   --title-color: hsl(var(--second-hue), 8%, 85%);
@@ -129,8 +150,8 @@ img {
       var(--first-color) 0%,
       var(--first-color-dark) 100%);
 }
- 
-   
+
+
 
 /*=============== LAYOUT ===============*/
 .container {
@@ -239,32 +260,32 @@ img {
 .home-img-wrapper {
   width: 38rem;
   background: var(--second-gradient);
-  border-radius: 58% 42% 23% 77% / 66% 54% 46% 34% ;
+  border-radius: 58% 42% 23% 77% / 66% 54% 46% 34%;
   overflow: hidden;
 }
 
-.home-social{
+.home-social {
   row-gap: 1rem;
 }
 
-.home-social-link{
+.home-social-link {
   color: var(--title-color);
   font-size: var(--larger-font-size);
   transition: color 0.3s;
 }
 
-.home-social-link:hover{
+.home-social-link:hover {
   color: var(--first-color);
 }
 
 /*=============== ABOUT ===============*/
-.about-container{
+.about-container {
   grid-template-columns: 3fr 6fr 2fr;
   align-items: center;
   column-gap: 4rem;
 }
 
-.about-exprience{
+.about-exprience {
   width: 280px;
   height: 420px;
   background-image: var(--second-gradient);
@@ -273,36 +294,41 @@ img {
   place-content: center;
 }
 
-.exprience-no{
+.exprience-no {
   font-size: var(--big-font-size);
   font-weight: var(--font-bold);
   line-height: 1;
   margin-bottom: 0.25rem;
 }
-.exprience-title{
+
+.exprience-title {
   font-size: var(--large-font-size);
   text-align: center;
 }
-.about-description{
+
+.about-description {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
-.text-gradient{
+
+.text-gradient {
   /* -webkit-text-fill-color: hsl(var(--second-hue), 8%, 85%, 0.2); */
   -webkit-text-fill-color: rgba(255, 255, 255, 0.2);
-   background-image: var(--first-gradient);
-   background-clip: text;
-   background-size: 0% 100%;
-   background-repeat: no-repeat;
+  background-image: var(--first-gradient);
+  background-clip: text;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
 }
 
-.about-data{
+.about-data {
   row-gap: 2rem;
 }
-.about-no{
+
+.about-no {
   font-size: var(--h2-font-size);
   margin-bottom: 0.125rem;
 }
+
 /*=============== SERVICES ===============*/
 
 /*=============== SKILLS ===============*/
