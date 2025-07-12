@@ -20,7 +20,7 @@
   <header class="header" id="header">
 
     <nav class="nav container">
-      <a href="#" class="nav-logo active-link">Akash</a>
+      <a href="#" class="nav-logo active-link">Akash.</a>
 
       <div class="nav-menu">
         <ul class="nav-list">
@@ -368,15 +368,11 @@
       <h2 class="section-title">Portfolio</h2>
 
       <div class="container">
-        <ul class="work-list">
-          <li class="work-item active-work" data-filter="all">All</li>
-          <li class="work-item " data-filter=".Development">Development</li>
-          <li class="work-item " data-filter=".Design">Design</li>
-        </ul>
+
 
         <div class="work-container grid">
 
-            <div class="mix Development">
+          <div class="mix Development">
             <article class="work-card">
               <img src="./assets/img/Project-5.png" alt="Work Image" class="work-image">
               <h4 class="work-category">Development</h4>
@@ -388,7 +384,7 @@
             </article>
           </div>
 
-          
+
 
           <div class="mix Design">
             <article class="work-card">
@@ -420,18 +416,20 @@
               <img src="./assets/img/Project-4.png" alt="Work Image" class="work-image">
               <h4 class="work-category">Development</h4>
               <h3 class="work-title">JS Mini Projects</h3>
-              <p class="work-description">Built mini-projects over 100 days to strengthen core JS skills—covering DOM, events, animations, form validation, and more.</p>
-              <a href="https://akashcreates.github.io/JavascriptMiniProjects/" target="_blank" class="work-link">Vist Project <i
-                  class="ri-arrow-right-line work-icon"></i></a>
+              <p class="work-description">Collection of Mini-projects to strengthen core JS skills—covering DOM,
+                events, animations, form validation, and more.</p>
+              <a href="https://akashcreates.github.io/JavascriptMiniProjects/" target="_blank" class="work-link">Vist
+                Project <i class="ri-arrow-right-line work-icon"></i></a>
             </article>
           </div>
 
-        <div class="mix Development">
+          <div class="mix Development">
             <article class="work-card">
               <img src="./assets/img/Project-1.png" alt="Work Image" class="work-image">
               <h4 class="work-category">Development</h4>
               <h3 class="work-title">Color Flipper</h3>
-              <p class="work-description">A JavaScript mini-project to change the background color on button click using random hex codes or a color list. Great for practicing DOM, events, and basic logic.</p>
+              <p class="work-description">A JavaScript mini-project to change the background color on button click using
+                random hex codes or a color list. Great for practicing DOM, events, and basic logic.</p>
               <a href="https://akashcreates.github.io/Color_Flipper/" target="_blank" class="work-link">Vist Project <i
                   class="ri-arrow-right-line work-icon"></i></a>
             </article>
@@ -444,11 +442,102 @@
     </section>
 
     <!--=============== CONTACT ===============-->
-    <section class="contact section" id="contact"></section>
+    <section class="contact section" id="contact">
+
+      <div class="contact-container container grid">
+
+        <div class="contact-group">
+          <h2 class="section-title contact-section-title">Let's Talk About <br> Your Project</h2>
+
+          <div class="contact-data grid">
+
+
+            <div class="contact-item">
+              <span class="contact-icon">
+                <i class="ri-mail-open-fill"></i>
+              </span>
+
+              <div>
+                <h3 class="contact-title">E-mail</h3>
+                <p class="contact-description">akashmaityofficial@gmail.com</p>
+              </div>
+            </div>
+
+
+            <div class="contact-item">
+              <span class="contact-icon">
+                <i class="ri-phone-fill"></i>
+              </span>
+
+              <div>
+                <h3 class="contact-title">Phone</h3>
+                <p class="contact-description">+91 9477235800</p>
+              </div>
+            </div>
+
+
+            <div class="contact-item">
+              <span class="contact-icon">
+                <i class="ri-map-pin-fill"></i>
+              </span>
+
+              <div>
+                <h3 class="contact-title">Location</h3>
+                <p class="contact-description">129 Bidhan Park Kolkata-700090</p>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <form class="contact-form grid" id="contact-form">
+
+          <div class="contact-form-div">
+            <label for="contact-name" class="contact-label">Name</label>
+            <input type="text" id="contact-name" name="name" class="contact-input">
+          </div>
+
+          <div class="contact-form-div">
+            <label for="contact-email" class="contact-label">Email</label>
+            <input type="email" id="contact-email" name="email" class="contact-input">
+          </div>
+
+          <div class="contact-form-div">
+            <label for="contact-message" class="contact-label">Message</label>
+            <textarea id="message" name="message" class="contact-input contact-area"></textarea>
+          </div>
+
+          <button type="submit" class="button contact-button">Send Message</button>
+          <p class="contact-massage" id="output-Message"></p>
+        </form>
+
+      </div>
+    </section>
   </main>
 
   <!--=============== FOOTER ===============-->
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <div class="footer-container container">
+      <div class="footer-social">
+          <a href="https://www.linkedin.com/in/akash-maity-akashcreates/" target="_blank" class="footer-social-link">
+            <i class="ri-linkedin-fill"></i>
+          </a>
+
+          <a href="https://x.com/_akash_maity" target="_blank" class="footer-social-link">
+            <i class="ri-twitter-x-fill"></i>
+          </a>
+
+          <a href="https://github.com/AkashCreates" target="_blank" class="footer-social-link">
+            <i class="ri-github-fill"></i>
+          </a>
+        </div>
+
+        <p class="footer-copyright">© 2025 <span>AkashCreates</span>. All Rights Reserved</p>
+        <p class="footer-copyright">Developed by <span>Akash</span></p>
+    </div>
+  </footer>
 
   <!--=============== GSAP ===============-->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>

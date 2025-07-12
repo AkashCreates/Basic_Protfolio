@@ -107,7 +107,7 @@ Intermediate
 Photoshop
 Intermediate
 
-InvisionApp
+Canva
 Basic
 
 
@@ -151,20 +151,21 @@ Branding
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
 
 .work-category | .work-title
-Branding
-Zorro
+ 
+Development
+Weather App
+
+Design
+QuickStart
 
 Development
-Explore
-
-Photography
-Mozar
-
-Photography
-Gooir
+Food Zone
 
 Development
-Stay Fit
+JS Mini Projects
+
+Development
+Color Flipper
 
 .work-link
 Visit Project
@@ -176,13 +177,13 @@ Let's Talk About Your Project
 
 .contact-title | .contact-description
 E-mail
-hello@domain.com
+akashmaityofficial@gmail.com
 
 Phone
-+123 445 566
++91 9477235800
 
 Location
-123 Main Street New York, 10001
+129 Bidhan Park Kolkata 700090
 
 .contact-form-label
 Name
@@ -201,5 +202,5 @@ OOPs! SOMETHING WENT WRONG...
 
 ========== FOOTER ==========
 .footer-copyright
-© 2024 Zethan. All Rights Reserved
-Developed by Sajid
+© 2024 AkashCreates. All Rights Reserved
+Developed by Akash
